@@ -2,8 +2,8 @@
   <div id="app">
     <v-app>
       <!--<v-navigation-drawer app></v-navigation-drawer>-->
-      <!--<v-app-bar app> </v-app-bar>-->
 
+      <Header></Header>
       <!-- Sizes your content based upon application components -->
       <v-main>
         <router-view />
@@ -15,15 +15,17 @@
 </template>
 
 <script>
+import Header from "@/components/Header";
+
 export default {
   name: "App",
-  components: {},
+  components: { Header },
 };
 </script>
 
 <style>
 #app {
-  font-family: Roboto, Hacked, Helvetica, Arial, sans-serif;
+  font-family: Roboto, hackedregular, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -43,11 +45,5 @@ body {
 .v-application,
 .v-main {
   height: 100%;
-}
-</style>
-
-<style scoped>
-v-footer {
-  background-color: aliceblue;
 }
 </style>

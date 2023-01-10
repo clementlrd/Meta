@@ -3,7 +3,8 @@
     <img
       alt="Meta logo"
       src="@/assets/meta 600x600.png"
-      style="height: auto; width: min(100%, 600px)"
+      style="height: auto; width: min(100%, 500px)"
+      class="mt-n8"
     />
   </v-container>
 </template>
@@ -24,5 +25,12 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+</style>
+
+<style scoped>
+.test {
+  font-family: "hackedregular", sans-serif;
+  font-size: 2em;
 }
 </style>

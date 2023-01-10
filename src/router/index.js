@@ -14,6 +14,14 @@ const router = new VueRouter({
 			path: '/',
 			component: Home,
 		},
+		{
+			path: '/members',
+			component: Error404,
+		},
+		{
+			path: '/campaign',
+			component: Error404,
+		},
     // ERROR pages
     {
 			path: '/404',
