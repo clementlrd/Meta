@@ -4,7 +4,7 @@
       alt="Meta logo"
       src="@/assets/meta 600x600.png"
       style="height: auto; width: min(100%, 500px)"
-      class="mt-n8"
+      class="mt-n8 img_grow"
     />
   </v-container>
 </template>

@@ -4,7 +4,7 @@
       alt="Meta logo"
       src="@/assets/meta_logo 600x600.png"
       style="height: auto; width: min(100%, 350px)"
-      class="mt-n4"
+      class="mt-n4 img_grow"
     />
     <v-card class="text-box mx-auto mt-n12 pt-4" max-width="700">
       <v-card-title class="justify-center title"> Error 404 </v-card-title>

@@ -31,7 +31,7 @@ export default {
   text-align: center;
 
   height: 100%;
-  background-image: url("assets/background 1.jpg");
+  background-image: url("assets/background 1_flou.jpg");
   background-size: cover; /* Ajuste la taille de l'image pour qu'elle couvre tout l'écran */
   background-position: center; /* Centre l'image */
   background-repeat: no-repeat;
@@ -45,5 +45,13 @@ body {
 .v-application,
 .v-main {
   height: 100%;
+}
+
+.img_grow {
+  transition: all 0.8s ease-in-out;
+}
+
+.img_grow:hover {
+  transform: scale(1.02);
 }
 </style>
