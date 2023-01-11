@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const Home = () => import('@/views/Home');
+const Trombi = () => import('@/views/Trombi');
+const Campaign = () => import('@/views/Campaign');
 // Error page
 const Error404 = () => import('@/views/error pages/404');
 
@@ -16,11 +18,11 @@ const router = new VueRouter({
 		},
 		{
 			path: '/members',
-			component: Error404,
+			component: Trombi,
 		},
 		{
 			path: '/campaign',
-			component: Error404,
+			component: Campaign,
 		},
     // ERROR pages
     {

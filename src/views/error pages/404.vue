@@ -4,9 +4,9 @@
       alt="Meta logo"
       src="@/assets/meta_logo 600x600.png"
       style="height: auto; width: min(100%, 350px)"
-      class="mt-n4 img_grow"
+      class="img_grow mt-4"
     />
-    <v-card class="text-box mx-auto mt-n12 pt-4" max-width="700">
+    <v-card class="text-box mx-auto mt-6 pt-4" max-width="700">
       <v-card-title class="justify-center title"> Error 404 </v-card-title>
       <v-card-subtitle class="mt-1"
         ><p class="message">Oupsss... Cette page n'existe pas.</p>

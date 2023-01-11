@@ -1,7 +1,13 @@
 <template>
   <router-link :to="to" class="item">
-    <v-btn outlined rounded class="btn">
-      <slot></slot>
+    <v-btn
+      outlined
+      rounded
+      class="btn"
+      :color="to != $route.path ? '#00bfff' : '#ff1493'"
+      elevation="10"
+    >
+      <slot class="txt"></slot>
     </v-btn>
   </router-link>
 </template>
@@ -13,24 +19,15 @@ export default {
 </script>
 
 <style scoped>
-a {
-  text-decoration: none;
-}
-
-a.router-link-exact-active {
-  color: #42b983;
-}
-
 .item {
   font-family: "hackedregular";
-  color: #2c3e50;
-  width: 2000px;
+  margin-inline: 15px;
+  margin-top: 5px;
 }
 
 .btn {
-  background-color: lightgrey;
-  border-color: yellow;
-  margin-inline: 5px;
-  margin-top: 5px;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-color: #ff1493;
+  border-width: 1.25px;
 }
 </style>

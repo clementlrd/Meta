@@ -25,7 +25,7 @@ export default {
 
 <style>
 #app {
-  font-family: Roboto, hackedregular, Helvetica, Arial, sans-serif;
+  font-family: Roboto, "hackedregular", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -48,7 +48,7 @@ body {
 }
 
 .img_grow {
-  transition: all 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .img_grow:hover {

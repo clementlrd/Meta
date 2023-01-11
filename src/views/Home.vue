@@ -3,8 +3,8 @@
     <img
       alt="Meta logo"
       src="@/assets/meta 600x600.png"
-      style="height: auto; width: min(100%, 500px)"
-      class="mt-n8 img_grow"
+      style="height: auto; width: min(100%, 470px)"
+      class="img_grow mt-4"
     />
   </v-container>
 </template>
@@ -30,6 +30,7 @@ body {
 
 <style scoped>
 .test {
+  display: none;
   font-family: "hackedregular", sans-serif;
   font-size: 2em;
 }

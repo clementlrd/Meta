@@ -1,7 +1,7 @@
 <template>
   <v-container class="pt-8">
     <link-button v-for="item in items" :to="item.route" :key="item.route">
-      {{ item.title }}
+      <span class="txt">{{ item.title }}</span>
     </link-button>
   </v-container>
 </template>
@@ -31,3 +31,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.txt {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
