@@ -16,10 +16,10 @@
                   <img :src="member.picture" />
                 </v-avatar>
                 <v-col v-if="$vuetify.breakpoint.xs" class="pl-4">
-                  <v-card-title class="hacked">
+                  <v-card-title class="hacked-small">
                     {{ member.name }}
                   </v-card-title>
-                  <v-card-subtitle class="text-h5">{{
+                  <v-card-subtitle class="text-h6">{{
                     member.role
                   }}</v-card-subtitle>
                 </v-col>
@@ -70,5 +70,9 @@ export default {
 .hacked {
   font-family: "hackedregular";
   font-size: 3em;
+}
+.hacked-small {
+  font-family: "hackedregular";
+  font-size: 2em;
 }
 </style>

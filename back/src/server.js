@@ -74,7 +74,7 @@ app.get('/', function (req, res) {
 
 /************** files ******************/
 app.get('/program', function (req, res) {
-	const file = `${__dirname}/assets/${req.query.version == "short" ? "program_short" : "program"}.pdf`;
+	const file = `${__dirname}/assets/Programme_complet_META.pdf`;
 	console.log(file)
 	fs.stat(file, (err) => {
 		if (err == null) {
