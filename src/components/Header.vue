@@ -1,8 +1,16 @@
 <template>
   <v-container class="pt-8">
-    <link-button v-for="item in items" :to="item.route" :key="item.route">
-      <span class="txt">{{ item.title }}</span>
-    </link-button>
+    <v-row dense>
+      <v-col
+        v-for="item in items"
+        :key="item.route"
+        :cols="$vuetify.breakpoint.xs ? 12 : undefined"
+      >
+        <link-button :to="item.route">
+          <span class="txt">{{ item.title }}</span>
+        </link-button>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -23,8 +31,16 @@ export default {
           route: "/members",
         },
         {
-          title: "CAMPAGNES",
-          route: "/campaign",
+          title: "PROGRAMME",
+          route: "/program",
+        },
+        {
+          title: "ACTIVITES",
+          route: "/acti",
+        },
+        {
+          title: "GOODIES",
+          route: "/goodies",
         },
       ],
     };

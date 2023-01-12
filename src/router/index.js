@@ -3,7 +3,9 @@ import VueRouter from 'vue-router'
 
 const Home = () => import('@/views/Home');
 const Trombi = () => import('@/views/Trombi');
-const Campaign = () => import('@/views/Campaign');
+const Program = () => import('@/views/Program');
+const Acti = () => import('@/views/Acti');
+const Goodies = () => import('@/views/Goodies');
 // Error page
 const Error404 = () => import('@/views/error pages/404');
 
@@ -21,8 +23,16 @@ const router = new VueRouter({
 			component: Trombi,
 		},
 		{
-			path: '/campaign',
-			component: Campaign,
+			path: '/program',
+			component: Program,
+		},
+		{
+			path: '/acti',
+			component: Acti,
+		},
+		{
+			path: '/goodies',
+			component: Goodies,
 		},
     // ERROR pages
     {

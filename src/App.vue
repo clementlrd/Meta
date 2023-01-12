@@ -32,8 +32,8 @@ export default {
 
   height: 100%;
   background-image: url("assets/background 1_flou.jpg");
-  background-size: cover; /* Ajuste la taille de l'image pour qu'elle couvre tout l'écran */
-  background-position: center; /* Centre l'image */
+  background-size: auto; /* Ajuste la taille de l'image pour qu'elle couvre tout l'écran */
+  background-position: top; /* Centre l'image */
   background-repeat: no-repeat;
   background-color: rgb(39, 39, 39); /* Out of page (scrolling) color */
 }

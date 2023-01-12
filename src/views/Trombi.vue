@@ -16,17 +16,19 @@
                   <img :src="member.picture" />
                 </v-avatar>
                 <v-col v-if="$vuetify.breakpoint.xs" class="pl-4">
-                  <v-card-title class="role">{{ member.name }}</v-card-title>
+                  <v-card-title class="hacked">
+                    {{ member.name }}
+                  </v-card-title>
                   <v-card-subtitle class="text-h5">{{
                     member.role
                   }}</v-card-subtitle>
                 </v-col>
                 <template v-else>
                   <v-col align="center">
-                    <strong class="role"> {{ member.name }}</strong>
+                    <strong class="hacked"> {{ member.name }} </strong>
                   </v-col>
                   <v-col align="center">
-                    <strong class="role">{{ member.role }}</strong>
+                    <strong class="hacked"> {{ member.role }} </strong>
                   </v-col>
                 </template>
               </v-row>
@@ -34,9 +36,9 @@
 
             <v-expansion-panel-content>
               <v-divider></v-divider>
-              <v-card-text class="text-left">{{
-                member.description
-              }}</v-card-text>
+              <v-card-text class="text-left">
+                {{ member.description }}
+              </v-card-text>
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -46,11 +48,8 @@
 </template>
 
 <script>
-//import Member from "@/components/Member";
-
 export default {
   name: "Trombi",
-  components: {},
   data() {
     return {
       members: [
@@ -68,7 +67,7 @@ export default {
 </script>
 
 <style scoped>
-.role {
+.hacked {
   font-family: "hackedregular";
   font-size: 3em;
 }
