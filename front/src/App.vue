@@ -29,10 +29,10 @@ export default {
   text-align: center;
 
   height: 100%;
-  background-image: url("assets/background 1_flou.jpg");
-  background-size: auto; /* Ajuste la taille de l'image pour qu'elle couvre tout l'écran */
-  background-position: top; /* Centre l'image */
-  background-repeat: no-repeat;
+  background-image: url("assets/background.png");
+  background-size: auto;
+  background-position: top;
+  background-repeat: repeat-y;
   background-color: rgb(39, 39, 39); /* Out of page (scrolling) color */
 }
 
