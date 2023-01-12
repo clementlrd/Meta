@@ -1,25 +1,23 @@
 <template>
   <div id="app">
     <v-app>
-      <!--<v-navigation-drawer app></v-navigation-drawer>-->
-
       <Header></Header>
-      <!-- Sizes your content based upon application components -->
       <v-main>
         <router-view />
       </v-main>
 
-      <!--<v-footer app> </v-footer>-->
+      <Footer></Footer>
     </v-app>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default {
   name: "App",
-  components: { Header },
+  components: { Header, Footer },
 };
 </script>
 
