@@ -30,7 +30,7 @@ export default {
 
   height: 100%;
   background-image: url("assets/background.png");
-  background-size: auto;
+  background-size: cover;
   background-position: top;
   background-repeat: repeat-y;
   background-color: rgb(39, 39, 39); /* Out of page (scrolling) color */
