@@ -4,10 +4,20 @@
       <v-card-text class="white--text pa-1 pb-0 text-caption">
         <strong>Liste BDE </strong><span class="hacked">Meta</span>
         <strong> 2023 </strong>
-        <v-btn class="white--text" icon>
+        <v-btn
+          class="white--text"
+          href="https://www.facebook.com/profile.php?id=100089037207608"
+          target="_blank"
+          icon
+        >
           <v-icon size="14px"> mdi-facebook </v-icon>
         </v-btn>
-        <v-btn class="white--text" icon>
+        <v-btn
+          class="white--text"
+          href="https://www.instagram.com/listebdemeta/"
+          target="_blank"
+          icon
+        >
           <v-icon size="14px"> mdi-instagram </v-icon>
         </v-btn>
       </v-card-text>
@@ -25,10 +35,20 @@
             <strong> 2023 </strong>
           </v-col>
           <v-col cols="2">
-            <v-btn class="white--text" icon>
+            <v-btn
+              class="white--text"
+              href="https://www.facebook.com/profile.php?id=100089037207608"
+              target="_blank"
+              icon
+            >
               <v-icon size="24px"> mdi-facebook </v-icon>
             </v-btn>
-            <v-btn class="white--text" icon>
+            <v-btn
+              class="white--text"
+              href="https://www.instagram.com/listebdemeta/"
+              target="_blank"
+              icon
+            >
               <v-icon size="24px"> mdi-instagram </v-icon>
             </v-btn>
           </v-col>
