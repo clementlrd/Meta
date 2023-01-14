@@ -65,14 +65,14 @@ export default {
           card: require("@/assets/goodies/cartes_goodies_reverse_rare.png"), // bande LEDs
           place: "Grosse activite - Jeux quotidiens",
         },
-        {
-          card: require("@/assets/goodies/cartes_goodies_reverse_rare.png"), // Bandana
-          place: "Grosse activite",
-        },
         // commun
         {
           card: require("@/assets/goodies/reveal/sticker.png"),
           place: "Stand",
+        },
+        {
+          card: require("@/assets/goodies/reveal/bandana.png"),
+          place: "Grosse activite",
         },
       ],
     };

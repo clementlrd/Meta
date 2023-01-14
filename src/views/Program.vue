@@ -32,6 +32,5 @@
 <script>
 export default {
   name: "Program",
-  methods: {},
 };
 </script>
