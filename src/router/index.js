@@ -5,10 +5,10 @@ const Home = () => import('@/views/Home');
 const Trombi = () => import('@/views/Trombi');
 const Program = () => import('@/views/Program');
 const Acti = () => import('@/views/Acti');
-//const Goodies = () => import('@/views/Goodies');
+const Goodies = () => import('@/views/Goodies');
 // Error page
 const Error404 = () => import('@/views/error pages/404');
-const Futur = () => import('@/views/error pages/Futur');
+//const Futur = () => import('@/views/error pages/Futur');
 
 Vue.use(VueRouter)
 
@@ -33,7 +33,7 @@ const router = new VueRouter({
 		},
 		{
 			path: '/goodies',
-			component: Futur,
+			component: Goodies,
 		},
 		// ERROR pages
 		{
