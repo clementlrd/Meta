@@ -33,7 +33,7 @@ export default {
         // unique
         {
           card: require("@/assets/goodies/reveal/stephane.png"),
-          place: "Grosse activite",
+          place: "Petite activite",
         },
         {
           card: require("@/assets/goodies/cartes_goodies_reverse_unique.png"), // enceinte
@@ -71,7 +71,7 @@ export default {
           place: "Stand",
         },
         {
-          card: require("@/assets/goodies/reveal/bandana.png"),
+          card: require("@/assets/goodies/cartes_goodies_reverse_commun.png"),
           place: "Grosse activite",
         },
       ],
