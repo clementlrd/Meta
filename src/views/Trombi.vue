@@ -95,14 +95,14 @@ export default {
         },
         {
           name: "Fabien",
-          role: "Com Interieur",
+          role: "Com Interieure",
           picture: require("@/assets/pp/fabien.png"),
           description:
             "Lui c'est Fabien, le respo com interne. Si vous ne l'avez jamais vu, vous l'avez forcément entendu: faire une blague en amphi, un jeu de mot aventureux en soirée ou encore parler de son sud adoré. La liste serait reconnaissante si vous pouviez éviter de lui parler de “train” et de “bandol” dans la même phrase. En bref, on ne s'ennuie jamais avec ce jeune homme, on espère que vous avez hâte qu'il vous régale avec ses posts sur campus. ",
         },
         {
           name: "Paul",
-          role: "Com Exterieur",
+          role: "Com Exterieure",
           picture: require("@/assets/pp/paul.png"),
           description:
             "Vous connaissez forcément Paul, que ça soit pour son sérieux et son implication en tant que président de l'Anim ou pour ses folies nocturnes qui le poussent à foncer dans des murs. Vous ne trouverez pas plus bavard, il le dit lui-même il est addict à l'interaction avec les humains. On ne pouvait donc pas rêver mieux pour un respo com externe. Une chose est sûre, son sourire et sa bonne humeur sauront faire rayonner l'Ensta. ",
@@ -172,14 +172,14 @@ export default {
         },
         {
           name: "Bernerd",
-          role: "Integration",
+          role: "WEI et VdC",
           picture: require("@/assets/pp/bernerd.png"),
           description:
             "Oyez Oyez, le Ténard du fameux Äbracadabar a rangé sa pinte magique pour rejoindre MeTA en tant que Soutien au Wei et de Vie de Campus. Par son expérience du Bar et de la TechnoParade, Clément saura vous organiser un WEI des plus quali avec son acolyte Vincent. Et comment ne pas penser que la vie de campus ne pourra être que plus palpitante avec Clément puisqu'il l'améliore déjà tous les jours grâce aux bonnes bières de l'Äbracadabar. ",
         },
         {
           name: "Vincent",
-          role: "Integration",
+          role: "WEI et VdC",
           picture: require("@/assets/pp/vincent.png"),
           description:
             "On peut le dire, il n'y en a pas deux comme Vincent. Cet amoureux de la musique s'implique tellement dans la vie associative qu'il a fait du foyer sa nouvelle maison. On raconte même qu'il a forcé son repassage en 1ère année pour profiter 1 an de plus de notre magnifique zone 5. Le WEI ne peut être qu'exceptionnel avec Vincent aux commandes. Que ce soit à l'orga ou derrière les platines avec des sons chill house sunset rooftop topless, il va nous vendre du rêve.",

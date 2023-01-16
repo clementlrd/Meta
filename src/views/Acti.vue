@@ -22,6 +22,24 @@
           <v-card
             width="min(90%,900px)"
             class="mx-auto mt-4 mb-2"
+            color="rgb(39, 39, 39)"
+            flat
+          >
+            <v-img src="@/assets/acti/affiche_grosse_acti.png"></v-img>
+            <v-btn
+              href="https://doodle.com/meeting/participate/id/epZQ1N1b"
+              color="#e400ff"
+              outlined
+              class="mt-2 mb-2"
+              target="_blank"
+              >S'inscrire</v-btn
+            >
+          </v-card>
+        </v-col>
+        <v-col :cols="$vuetify.breakpoint.xs ? 12 : 6">
+          <v-card
+            width="min(90%,900px)"
+            class="mx-auto mt-4 mb-2"
             color="#ffffff00"
             flat
           >

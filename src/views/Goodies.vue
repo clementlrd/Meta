@@ -36,7 +36,7 @@ export default {
           place: "Petite activite",
         },
         {
-          card: require("@/assets/goodies/cartes_goodies_reverse_unique.png"), // enceinte
+          card: require("@/assets/goodies/reveal/enceinte.png"),
           place: "Grosse activite",
         },
         {
@@ -46,11 +46,11 @@ export default {
         // Légendaire
         {
           card: require("@/assets/goodies/reveal/pommeau.png"),
-          place: "Petite activite",
+          place: "Petite et grosse activites",
         },
         {
           card: require("@/assets/goodies/reveal/calendrier.png"),
-          place: "Petite activite",
+          place: "Petite activite - Jeux quotidiens",
         },
         // Rare
         {
@@ -62,8 +62,8 @@ export default {
           place: "?",
         },
         {
-          card: require("@/assets/goodies/cartes_goodies_reverse_rare.png"), // bande LEDs
-          place: "Grosse activite - Jeux quotidiens",
+          card: require("@/assets/goodies/reveal/LED.png"),
+          place: "Grosse activite",
         },
         // commun
         {
@@ -71,7 +71,7 @@ export default {
           place: "Stand",
         },
         {
-          card: require("@/assets/goodies/cartes_goodies_reverse_commun.png"),
+          card: require("@/assets/goodies/reveal/bandana.png"),
           place: "Grosse activite",
         },
       ],
