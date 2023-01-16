@@ -40,7 +40,7 @@ export default {
           place: "Grosse activite",
         },
         {
-          card: require("@/assets/goodies/cartes_goodies_reverse_unique.png"), // Vélo custom META
+          card: require("@/assets/goodies/reveal/disneyland.png"),
           place: "Grosse activite",
         },
         // Légendaire
