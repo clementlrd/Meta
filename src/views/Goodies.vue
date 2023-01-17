@@ -7,7 +7,7 @@
       class="img_grow mt-4"
     />
     <v-card width="min(90%,900px)" class="mx-auto" color="#ffffff00" flat>
-      <v-row class="mt-12">
+      <v-row class="mt-12 mb-4">
         <v-col
           :cols="$vuetify.breakpoint.xs ? 6 : 4"
           v-for="card in cards"
@@ -43,6 +43,10 @@ export default {
           card: require("@/assets/goodies/reveal/disneyland.png"),
           place: "Grosse activite",
         },
+        {
+          card: require("@/assets/goodies/reveal/velo.png"),
+          place: "Repas : Bingo",
+        },
         // Légendaire
         {
           card: require("@/assets/goodies/reveal/pommeau.png"),
@@ -53,6 +57,10 @@ export default {
           place: "Petite activite - Jeux quotidiens",
         },
         // Rare
+        {
+          card: require("@/assets/goodies/reveal/affiches.png"),
+          place: "Repas : Bingo",
+        },
         {
           card: require("@/assets/goodies/reveal/sticker_collector.png"),
           place: "?",
