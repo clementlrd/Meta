@@ -29,6 +29,16 @@
             <v-img src="@/assets/acti/affiche_hotlines_matin.png"></v-img>
           </v-card>
         </v-col>
+        <v-col :cols="$vuetify.breakpoint.xs ? 12 : 6">
+          <v-card
+            width="min(90%,900px)"
+            class="mx-auto mt-4 mb-2"
+            color="rgb(39, 39, 39)"
+            flat
+          >
+            <v-img src="@/assets/acti/affiche_hotlines_aprem.png"></v-img>
+          </v-card>
+        </v-col>
       </v-row>
       <v-row>
         <v-col>
